@@ -2,6 +2,11 @@
 
 Official repository for the paper: **"Kinematic hallucinations in vision-language models: A study on zero-shot signature verification"**.
 
+
+<p align="center">
+  <img src="graphicalabs.png" alt="Forensic Framework" width="600">
+</p>
+
 [![Status](https://img.shields.io/badge/Status-Under_Revision-orange)](https://www.sciencedirect.com/journal/pattern-recognition-letters)
 
 ---
@@ -10,12 +15,7 @@ Official repository for the paper: **"Kinematic hallucinations in vision-languag
 
 This repository contains the experimental framework for the first study evaluating the **zero-shot performance** of commercial Vision-Language Models (VLMs) (GPT-5.2 and Gemini 2.5 Pro) in the context of forensic signature verification. 
 
-
 Our research identifies a significant "Rationalization Trap": while VLMs demonstrate exceptional geometric reasoning in random forgery scenarios, they are susceptible to **kinematic hallucinations** in skilled forgeries, where they fabricate motor-related dynamics (such as speed or pressure) to justify morphological decisions.
-
-<p align="center">
-  <img src="graphicalabs.png" alt="Forensic Framework" width="800">
-</p>
 
 ### Key Contributions:
 * **Large-scale evaluation:** Analysis of 45,520 comparisons across three diverse forensic tasks.
