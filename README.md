@@ -13,6 +13,10 @@ This repository contains the experimental framework for the first study evaluati
 
 Our research identifies a significant "Rationalization Trap": while VLMs demonstrate exceptional geometric reasoning in random forgery scenarios, they are susceptible to **kinematic hallucinations** in skilled forgeries, where they fabricate motor-related dynamics (such as speed or pressure) to justify morphological decisions.
 
+<p align="center">
+  <img src="graphicalabs.png" alt="Forensic Framework" width="800">
+</p>
+
 ### Key Contributions:
 * **Large-scale evaluation:** Analysis of 45,520 comparisons across three diverse forensic tasks.
 * **Kinematic-Encoded Representation:** A preprocessing framework that maps normalized pressure $P(t)$ to grayscale stroke intensity to assess its impact on model reasoning.
